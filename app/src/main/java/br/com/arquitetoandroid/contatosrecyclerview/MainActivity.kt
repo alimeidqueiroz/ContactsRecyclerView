@@ -62,7 +62,6 @@ class MainActivity : AppCompatActivity(), ClickItemContactListener {
 
     }
 
-
     private fun getInstanceSharedPreferences(): SharedPreferences {
         return getSharedPreferences("br.com.arquitetoandroid.contatosrecyclerview.PREFERENCES", Context.MODE_PRIVATE)
     }
