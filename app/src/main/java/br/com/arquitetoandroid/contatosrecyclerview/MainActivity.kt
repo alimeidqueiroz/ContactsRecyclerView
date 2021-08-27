@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity(), ClickItemContactListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.drawer_menu)
+        setContentView(R.layout.activity_main)
 
         initDrawer()
         fetchListcontact()
